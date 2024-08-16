@@ -1,0 +1,528 @@
+[2024-08-16T08:45:31.599+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-16T08:45:31.606+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-16T08:45:31.609+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-16T08:45:31.610+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T08:45:31.614+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2024-08-16T08:50:32.566+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T08:50:32.951+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2024-08-16T08:53:48.828+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-16T09:01:59.856+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-16T09:01:59.857+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-16T09:01:59.858+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-16T09:01:59.860+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T09:01:59.890+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T09:02:15.094+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  1.57s           2024-08-16T09:02:01
+================================================================================
+[2024-08-16T09:02:26.650+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-16T09:03:02.097+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-16T09:03:02.098+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-16T09:03:02.099+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-16T09:03:02.100+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T09:03:02.117+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T09:03:02.198+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/load_data_into_s3.py    178  0.03s             0           0
+================================================================================
+[2024-08-16T09:03:32.285+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.94s           2024-08-16T09:03:03
+================================================================================
+[2024-08-16T09:04:02.534+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.54s           2024-08-16T09:03:33
+================================================================================
+[2024-08-16T09:04:32.721+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.55s           2024-08-16T09:04:04
+================================================================================
+[2024-08-16T09:05:02.919+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.53s           2024-08-16T09:04:35
+================================================================================
+[2024-08-16T09:05:11.039+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-16T09:05:45.185+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-16T09:05:45.186+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-16T09:05:45.187+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-16T09:05:45.188+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T09:05:45.202+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T09:05:45.306+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/load_data_into_s3.py    178  0.03s             0           0
+================================================================================
+[2024-08-16T09:06:15.472+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  1.11s           2024-08-16T09:05:46
+================================================================================
+[2024-08-16T09:06:45.692+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.66s           2024-08-16T09:06:17
+================================================================================
+[2024-08-16T09:07:15.869+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.58s           2024-08-16T09:06:47
+================================================================================
+[2024-08-16T09:07:45.924+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.66s           2024-08-16T09:07:18
+================================================================================
+[2024-08-16T09:08:16.375+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.74s           2024-08-16T09:07:49
+================================================================================
+[2024-08-16T09:08:46.573+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.69s           2024-08-16T09:08:20
+================================================================================
+[2024-08-16T09:09:16.870+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.67s           2024-08-16T09:08:51
+================================================================================
+[2024-08-16T09:09:47.048+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.66s           2024-08-16T09:09:22
+================================================================================
+[2024-08-16T09:10:17.209+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.74s           2024-08-16T09:09:53
+================================================================================
+[2024-08-16T09:10:45.632+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T09:10:45.662+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T09:10:47.686+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.55s           2024-08-16T09:10:23
+================================================================================
+[2024-08-16T09:10:49.588+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-16T09:12:02.681+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-16T09:12:02.682+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-16T09:12:02.683+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-16T09:12:02.685+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T09:12:02.725+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T09:12:02.924+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/load_data_into_s3.py    186  0.05s             0           0
+================================================================================
+[2024-08-16T09:12:33.092+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  1.51s           2024-08-16T09:12:04
+================================================================================
+[2024-08-16T09:12:58.993+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-16T09:21:21.607+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-16T09:21:21.617+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-16T09:21:21.620+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-16T09:21:21.625+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T09:21:21.705+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T09:21:22.156+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/load_data_into_s3.py    191  0.18s             0           0
+================================================================================
+[2024-08-16T09:21:52.383+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  5.49s           2024-08-16T09:21:27
+================================================================================
+[2024-08-16T09:22:23.388+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  1.43s           2024-08-16T09:21:59
+================================================================================
+[2024-08-16T09:22:54.021+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  7.82s           2024-08-16T09:22:37
+================================================================================
+[2024-08-16T09:23:24.232+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py    314  15.33s            1           0  7.82s           2024-08-16T09:22:37
+================================================================================
+[2024-08-16T09:23:55.151+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  32.92s          2024-08-16T09:23:41
+================================================================================
+[2024-08-16T09:24:07.923+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-16T09:32:57.276+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-16T09:32:57.279+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-16T09:32:57.280+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-16T09:32:57.281+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T09:32:57.328+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T09:33:10.497+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  1.07s           2024-08-16T09:32:58
+================================================================================
+[2024-08-16T09:33:40.677+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.55s           2024-08-16T09:33:29
+================================================================================
+[2024-08-16T09:34:10.833+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.63s           2024-08-16T09:33:59
+================================================================================
+[2024-08-16T09:34:41.281+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.50s           2024-08-16T09:34:30
+================================================================================
+[2024-08-16T09:35:11.467+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.66s           2024-08-16T09:35:01
+================================================================================
+[2024-08-16T09:35:41.770+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.71s           2024-08-16T09:35:32
+================================================================================
+[2024-08-16T09:36:11.940+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.60s           2024-08-16T09:36:03
+================================================================================
+[2024-08-16T09:36:41.952+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.64s           2024-08-16T09:36:33
+================================================================================
+[2024-08-16T09:37:12.495+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.51s           2024-08-16T09:37:04
+================================================================================
+[2024-08-16T09:37:42.838+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.58s           2024-08-16T09:37:35
+================================================================================
+[2024-08-16T09:37:57.350+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T09:37:57.365+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T09:38:13.014+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.50s           2024-08-16T09:38:05
+================================================================================
+[2024-08-16T09:38:43.728+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.53s           2024-08-16T09:38:36
+================================================================================
+[2024-08-16T09:39:13.975+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.51s           2024-08-16T09:39:07
+================================================================================
+[2024-08-16T09:39:44.141+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.54s           2024-08-16T09:39:38
+================================================================================
+[2024-08-16T09:40:14.407+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  2.08s           2024-08-16T09:40:10
+================================================================================
+[2024-08-16T09:40:44.698+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.56s           2024-08-16T09:40:41
+================================================================================
+[2024-08-16T09:41:14.732+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  1.34s           2024-08-16T09:41:12
+================================================================================
+[2024-08-16T09:41:44.917+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.60s           2024-08-16T09:41:43
+================================================================================
+[2024-08-16T09:42:15.088+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.79s           2024-08-16T09:42:14
+================================================================================
+[2024-08-16T09:42:45.219+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.52s           2024-08-16T09:42:45
+================================================================================
+[2024-08-16T09:42:57.769+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T09:42:57.799+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T09:43:15.435+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py   1048  0.00s             1           0  0.52s           2024-08-16T09:42:45
+================================================================================
+[2024-08-16T09:43:46.084+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.70s           2024-08-16T09:43:16
+================================================================================
+[2024-08-16T09:44:16.467+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.56s           2024-08-16T09:43:46
+================================================================================
+[2024-08-16T09:44:46.669+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.52s           2024-08-16T09:44:17
+================================================================================
+[2024-08-16T09:45:16.938+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.61s           2024-08-16T09:44:48
+================================================================================
+[2024-08-16T09:45:47.248+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.67s           2024-08-16T09:45:19
+================================================================================
+[2024-08-16T09:46:17.646+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  1.29s           2024-08-16T09:45:50
+================================================================================
+[2024-08-16T09:46:47.902+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.57s           2024-08-16T09:46:21
+================================================================================
+[2024-08-16T09:47:18.616+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  1.08s           2024-08-16T09:46:52
+================================================================================
+[2024-08-16T09:47:48.849+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.53s           2024-08-16T09:47:23
+================================================================================
+[2024-08-16T09:47:57.901+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T09:47:57.915+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T09:48:19.095+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  0.60s           2024-08-16T09:47:53
+================================================================================
+[2024-08-16T09:48:49.514+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/load_data_into_s3.py                           1           0  7.56s           2024-08-16T09:48:31
+================================================================================
+[2024-08-16T09:49:12.266+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-16T10:51:27.549+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-16T10:51:27.551+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-16T10:51:27.552+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-16T10:51:27.554+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T10:51:27.572+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T10:51:32.374+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-16T10:52:03.840+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-08-16T10:52:03.842+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-08-16T10:52:03.843+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-16T10:52:03.844+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-08-16T10:52:03.860+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-16T10:52:03.950+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/load_data_into_s3.py    178  0.03s             0           0
+================================================================================
+[2024-08-16T10:52:20.484+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
