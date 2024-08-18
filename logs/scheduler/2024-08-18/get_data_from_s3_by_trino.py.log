@@ -1,0 +1,7 @@
+[2024-08-18T17:07:20.324+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/get_data_from_s3_by_trino.py
+[2024-08-18T17:07:20.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_data_from_s3_by_trino.py for tasks to queue
+[2024-08-18T17:07:20.334+0000] {logging_mixin.py:188} INFO - [2024-08-18T17:07:20.333+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_from_s3_by_trino.py
+[2024-08-18T17:07:21.286+0000] {processor.py:840} INFO - DAG(s) 'trino_to_parquet_minio' retrieved from /opt/airflow/dags/get_data_from_s3_by_trino.py
+[2024-08-18T17:07:21.330+0000] {logging_mixin.py:188} INFO - [2024-08-18T17:07:21.330+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-18T17:07:21.348+0000] {logging_mixin.py:188} INFO - [2024-08-18T17:07:21.347+0000] {dag.py:3947} INFO - Setting next_dagrun for trino_to_parquet_minio to None, run_after=None
+[2024-08-18T17:07:21.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_data_from_s3_by_trino.py took 1.070 seconds

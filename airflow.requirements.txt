@@ -6,3 +6,6 @@ pyarrow
 vnstock3
 minio
 trino
+s3fs
+apache-airflow-providers-trino
+pyspark
