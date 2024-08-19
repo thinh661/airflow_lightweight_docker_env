@@ -1,0 +1,62 @@
+[2024-08-19T01:50:09.544+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:50:09.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_data_day_into_s3.py for tasks to queue
+[2024-08-19T01:50:09.579+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:09.574+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:50:13.383+0000] {logging_mixin.py:188} INFO - 
+    Khi tiếp tục sử dụng Vnstock3, bạn xác nhận rằng bạn đã đọc, hiểu và đồng ý với Chính sách quyền riêng tư và Điều khoản, điều kiện về giấy phép sử dụng Vnstock3.
+
+    Chi tiết:
+
+    - Giấy phép sử dụng phần mềm: https://vnstocks.com/docs/tai-lieu/giay-phep-su-dung
+    - Chính sách quyền riêng tư: https://vnstocks.com/docs/tai-lieu/chinh-sach-quyen-rieng-tu
+    
+[2024-08-19T01:50:15.656+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:15.655+0000] {font_manager.py:1584} INFO - generated new fontManager
+[2024-08-19T01:50:16.155+0000] {processor.py:840} INFO - DAG(s) 'update_stock_data_day_daily' retrieved from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:50:16.345+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:16.345+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:update_stock_data_day_daily
+[2024-08-19T01:50:16.355+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:16.354+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:update_stock_data_day_daily
+[2024-08-19T01:50:16.363+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:16.362+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:update_stock_data_day_daily
+[2024-08-19T01:50:16.364+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:16.363+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-19T01:50:16.374+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:16.374+0000] {dag.py:3111} INFO - Creating ORM DAG for update_stock_data_day_daily
+[2024-08-19T01:50:16.383+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:16.383+0000] {dag.py:3947} INFO - Setting next_dagrun for update_stock_data_day_daily to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-19T01:50:16.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_day_into_s3.py took 6.930 seconds
+[2024-08-19T01:50:47.087+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:50:47.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_data_day_into_s3.py for tasks to queue
+[2024-08-19T01:50:47.090+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:47.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:50:48.513+0000] {processor.py:840} INFO - DAG(s) 'update_stock_data_day_daily' retrieved from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:50:48.549+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:48.548+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-19T01:50:48.583+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:50:48.583+0000] {dag.py:3947} INFO - Setting next_dagrun for update_stock_data_day_daily to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-19T01:50:48.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_day_into_s3.py took 1.522 seconds
+[2024-08-19T01:51:18.858+0000] {processor.py:161} INFO - Started process (PID=333) to work on /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:51:18.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_data_day_into_s3.py for tasks to queue
+[2024-08-19T01:51:18.860+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:51:18.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:51:20.133+0000] {processor.py:840} INFO - DAG(s) 'update_stock_data_day_daily' retrieved from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:51:20.160+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:51:20.159+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-19T01:51:20.181+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:51:20.180+0000] {dag.py:3947} INFO - Setting next_dagrun for update_stock_data_day_daily to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-19T01:51:20.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_day_into_s3.py took 1.348 seconds
+[2024-08-19T01:51:50.549+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:51:50.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_data_day_into_s3.py for tasks to queue
+[2024-08-19T01:51:50.552+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:51:50.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:51:51.896+0000] {processor.py:840} INFO - DAG(s) 'update_stock_data_day_daily' retrieved from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:51:52.011+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:51:52.011+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-19T01:51:52.050+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:51:52.050+0000] {dag.py:3947} INFO - Setting next_dagrun for update_stock_data_day_daily to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-19T01:51:52.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_day_into_s3.py took 1.535 seconds
+[2024-08-19T01:52:22.533+0000] {processor.py:161} INFO - Started process (PID=467) to work on /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:52:22.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_data_day_into_s3.py for tasks to queue
+[2024-08-19T01:52:22.538+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:52:22.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:52:25.136+0000] {processor.py:840} INFO - DAG(s) 'update_stock_data_day_daily' retrieved from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:52:25.210+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:52:25.208+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-19T01:52:25.278+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:52:25.277+0000] {dag.py:3947} INFO - Setting next_dagrun for update_stock_data_day_daily to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-19T01:52:25.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_day_into_s3.py took 2.800 seconds
+[2024-08-19T01:52:55.516+0000] {processor.py:161} INFO - Started process (PID=547) to work on /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:52:55.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_data_day_into_s3.py for tasks to queue
+[2024-08-19T01:52:55.519+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:52:55.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:52:56.770+0000] {processor.py:840} INFO - DAG(s) 'update_stock_data_day_daily' retrieved from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:52:56.793+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:52:56.792+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-19T01:52:56.812+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:52:56.812+0000] {dag.py:3947} INFO - Setting next_dagrun for update_stock_data_day_daily to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-19T01:52:56.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_day_into_s3.py took 1.322 seconds
+[2024-08-19T01:53:27.268+0000] {processor.py:161} INFO - Started process (PID=605) to work on /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:53:27.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_data_day_into_s3.py for tasks to queue
+[2024-08-19T01:53:27.271+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:53:27.271+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:53:28.489+0000] {processor.py:840} INFO - DAG(s) 'update_stock_data_day_daily' retrieved from /opt/airflow/dags/load_data_day_into_s3.py
+[2024-08-19T01:53:28.519+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:53:28.518+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-19T01:53:28.544+0000] {logging_mixin.py:188} INFO - [2024-08-19T01:53:28.544+0000] {dag.py:3947} INFO - Setting next_dagrun for update_stock_data_day_daily to 2024-08-18 00:00:00+00:00, run_after=2024-08-19 00:00:00+00:00
+[2024-08-19T01:53:28.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_data_day_into_s3.py took 1.304 seconds
