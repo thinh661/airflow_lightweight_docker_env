@@ -32,7 +32,7 @@ default_args = {
 with DAG(
     dag_id='update_stock_data_hourly',
     default_args=default_args,
-    schedule_interval='@hourly',  # Chạy mỗi giờ
+    schedule_interval=None,  # Chạy mỗi giờ
     catchup=False,
 ) as dag:
 

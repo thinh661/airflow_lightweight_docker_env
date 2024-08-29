@@ -6,7 +6,7 @@ import os
 from minio import Minio
 
 # Đường dẫn đến thư mục chứa file CSV
-csv_file_path = '/opt/airflow/data/day/all_stock_data_2021_to_present.csv'  # Giả sử file CSV duy nhất có tên này
+csv_file_path = '/opt/airflow/data/day/all_stock_data_2021_to_present.csv'  
 
 # Thông tin MinIO
 minio_endpoint = 'minio:9000'  # Sử dụng tên dịch vụ MinIO trong Docker Compose
